@@ -4,14 +4,6 @@ A production-style portfolio project demonstrating **Text-to-SQL over structured
 
 ---
 
-## Problem Statement
-
-Hospital finance and operations leaders need fast answers to questions that change constantly — average cost per encounter by condition, length-of-stay trends by department, which payers reimburse worst, how readmission rates are trending. Traditional BI dashboards can't keep pace: every new question either waits on an analyst to write custom SQL, or gets bolted onto an already-cluttered dashboard nobody fully understands.
-
-This project uses **Snowflake Cortex Analyst** to close that gap. A semantic model encodes business logic once — what "readmission" means, how cost is calculated, how tables relate — and any authorized stakeholder can then ask questions in plain English and get correct, transparent SQL back, with the query itself visible for trust and audit.
-
----
-
 ## Tech Stack
 
 - **Snowflake**: Cortex Analyst, Cortex Search, Semantic Views, Streamlit in Snowflake, SQL Worksheets
